@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+
+
+}
+h1{
+color:#01c8a6;
+text-align: center;
+font-weight: 100;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    
+      }
+/*
+.container{
+min-height:90%;
+width: 350px;
+border:1px solid black;
+margin-left:300px;
+margin-top:30px;
+background-color:#12192c;
+
+}
+*/
+
+.container {
+    display: flex;
+    border:1px solid black;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    background-color:#12192c;
+  }
+
+   .inputcontent{
+
+    width:85%;
+    margin-left:26px;
+    padding:10px;
+  
+}
+
+/* Style the form icons 
+.icon {
+    padding: 10px;
+    background: #01c8a6;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+    /* Style the input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+
+  .input-field:focus {
+    border: 2px solid #01c8a6;
+
+  }
+  
+  .btn{
+    width:79%;
+    padding: 10px;
+    color:white;
+    margin-left: 35px;
+   background-color:#01c8a6;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+  btn:hover {
+    opacity:1;
+  }
+
+  .checkbox{
+     margin-left:10px;
+     margin-bottom:25px;
+     color:#01c8a6;
+
+  }
+ 
+
+  p{
+   margin-left:45px;
+   margin-top:10px;
+   color:white;
+
+  }
+
+  a:link {
+    color: #01c8a6;
+    text-decoration: none;
+  }
+
+body {
+    background-color: pink;
+}
+  
+
+
+
+
+
+  
